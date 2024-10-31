@@ -1,6 +1,7 @@
 from STT.stt import my_stt
 from RAG.ragpipeline import RagPipeline
 
+
 rag = RagPipeline()
 
 

@@ -1,5 +1,5 @@
 import speech_recognition as sr
-
+import sounddevice as sd
 # names = sr.Microphone.list_microphone_names()
 # print(names)
 
