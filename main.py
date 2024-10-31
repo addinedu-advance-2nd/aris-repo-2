@@ -10,8 +10,11 @@ while True :
     if my_speech == "종료" :
         break
     else :
-        print('대답')
+        print('[고객님]')
         print(my_speech)
         answer = rag.generate_answer(my_speech)
-
+        print()
+        print('[AI 접수원]')
         print(answer)
+        print('---'*30)
+        print()

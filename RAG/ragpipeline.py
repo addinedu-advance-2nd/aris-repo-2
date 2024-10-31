@@ -26,4 +26,6 @@ class RagPipeline:
         }
 
         response = self.chain.invoke(inputs)
+        result = response.split('.')
+        response = '\n'.join(result)
         return response

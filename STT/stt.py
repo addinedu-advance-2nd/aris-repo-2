@@ -6,7 +6,7 @@ import sounddevice as sd
 def my_stt() :
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:     # 마이크 열기 
-        print("무슨 말이라도? : ")
+        # print("주문을 부탁드립니다")
         # 백그라운드 노이즈를 줄이기 위해 환경 소음 인식
         recognizer.adjust_for_ambient_noise(source)
         # 마이크 입력 받기
