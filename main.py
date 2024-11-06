@@ -4,7 +4,7 @@ from RAG.ragpipeline import RagPipeline
 
 rag = RagPipeline()
 
-
+print('start')
 while True :
     my_speech = my_stt()
     if my_speech == "종료" :
