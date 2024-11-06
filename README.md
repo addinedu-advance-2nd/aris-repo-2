@@ -4,6 +4,16 @@ fastAPI + 얼굴인식
 
 > uvicorn app.main:app --reload
 
+1. 얼굴인식
+2. ollama local에서 학습하기 
+
+로봇 제어 
+
+다음주 openVLA 논문 읽고 번역 full 번역본  , 요약 번역본 - 다 같이 공부용으로 
+ppt 로 
+method , experments
+
+
 
 
 ```
