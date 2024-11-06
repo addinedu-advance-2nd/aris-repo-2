@@ -1,13 +1,5 @@
-
-
-cmake 설치 필요
-
-
-pip install cmake
-
-pip install dlib
-
-pip install face-recognition
+# 얼굴인식 
+fastAPI + 얼굴인식 
 
 
 > uvicorn app.main:app --reload
