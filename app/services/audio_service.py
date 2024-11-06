@@ -1,7 +1,5 @@
 import speech_recognition as sr
 import sounddevice as sd
-# names = sr.Microphone.list_microphone_names()
-# print(names)
 
 def my_stt() :
     recognizer = sr.Recognizer()
@@ -14,7 +12,7 @@ def my_stt() :
     
     try :
         mySpeech = recognizer.recognize_google(audio, language='ko-KR', show_all=False)
-    
+        print(mySpeech)
         return mySpeech
         
     except sr.UnknownValueError:
