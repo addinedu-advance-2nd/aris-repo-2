@@ -1,0 +1,17 @@
+
+
+openai-whisper
+face-recognition
+SpeechRecognition
+sounddevice
+wheel
+pyaudio
+fastapi
+uvicorn[standard]
+six
+opencv-python
+langchain
+langchain_openai
+langchain_core
+langchain_community
+rank_bm25
